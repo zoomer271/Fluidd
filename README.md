@@ -5,4 +5,5 @@
 
 
 ### Credits
-* zoomer271 - API creator
+* zoomer271 - API Creator
+* Mystik - Backend Creator
