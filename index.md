@@ -1,37 +1,40 @@
-## Welcome to GitHub Pages
+## Welcome to Fluidd Chat Package
 
-You can use the [editor on GitHub](https://github.com/zoomer271/fluidd-package/edit/gh-pages/index.md) to maintain and preview the content for your website in Markdown files.
+This is used in python to use Fluidd API and make bots for your chats!
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+### Setting Up The Bot
 
-### Markdown
+Go to www.fluidd.club/developers and get a bot setup!
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
-
+## Few things that are needed here are
 ```markdown
-Syntax highlighted code block
-
-# Header 1
-## Header 2
-### Header 3
-
-- Bulleted
-- List
-
-1. Numbered
-2. List
-
-**Bold** and _Italic_ and `Code` text
-
-[Link](url) and ![Image](src)
+### Token
+The token is the password for the bot! It could be changed if you want to.
+### Name
+The name is the username for the bot! It could be changed if you want to.
+### Prefix
+The prefix is the prefix for the bot! Such as !help if you have that command registered it will respond back!
+### ID
+The ID is needed for certain purposes.
 ```
 
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
+## Installing everything needed
+### Python 3.7 and above
+### Our pip package. you can install it with
+`pip3 install fluidd` or `python3 -m pip install fluidd`
+### A IDE of your choice such as Visual Studio Code
 
-### Jekyll Themes
+## Starting to code
 
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/zoomer271/fluidd-package/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
+* This is a main part of using our API so follow carefully to not mess up!
 
-### Support or Contact
+`bot.py`
+```markdown
+import fluidd
 
-Having trouble with Pages? Check out our [documentation](https://docs.github.com/categories/github-pages-basics/) or [contact support](https://support.github.com/contact) and we’ll help you sort it out.
+bot = fluidd.Fluidd()
+
+bot.TestConnection()
+```
+
+And if connection is successful it should return `Server is up and connection is successfully connected!`. If it says something else that means the server is down or you are not connected to Internet.
