@@ -42,6 +42,15 @@ The ID is needed for certain purposes.
 
 `bot.py`
 ```markdown
+""""
+    ---------------------
+    Copyright Information
+    ---------------------
+
+    Code given here is made by Fluidd Inc. 
+    If getting any other functions from other sources and using it in a commercial use.
+    All rights must be given to them.
+"""
 from fluidd import Fluidd
 
 bot = Fluidd()
