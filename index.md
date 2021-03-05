@@ -7,16 +7,16 @@ This is used in python to use Fluidd API and make bots for your chats!
 Go to www.fluidd.club/developers and get a bot setup!
 
 ## Few things that are needed here are
-```markdown
-Token
+
+### Token
 The token is the password for the bot! It could be changed if you want to.
-Name
+### Name
 The name is the username for the bot! It could be changed if you want to.
-Prefix
+### Prefix
 The prefix is the prefix for the bot! Such as !help if you have that command registered it will respond back!
-ID
+## ID
 The ID is needed for certain purposes.
-```
+
 
 ## Installing everything needed
 ### Python 3.7 and above
@@ -29,12 +29,12 @@ The ID is needed for certain purposes.
 * Before we start in the top of `bot.py` you must put: 
 ```markdown
     ---------------------
-    Copyright Information
+    COPYRIGHT INFORMATION
     ---------------------
 
-    Code given here is made by Fluidd Inc. 
+    Code given here is made by Fluidd Inc and allows modifcations to certain extents. 
     If getting any other functions from other sources and using it in a commercial use.
-    All rights must be given to them.
+    All rights must be given to them please state in this file. 
 ```
 
 
@@ -44,12 +44,12 @@ The ID is needed for certain purposes.
 ```markdown
 """"
     ---------------------
-    Copyright Information
+    COPYRIGHT INFORMATION
     ---------------------
 
-    Code given here is made by Fluidd Inc. 
+    Code given here is made by Fluidd Inc and allows modifcations to certain extents. 
     If getting any other functions from other sources and using it in a commercial use.
-    All rights must be given to them.
+    All rights must be given to them please state in this file. 
 """
 from fluidd import Fluidd
 
